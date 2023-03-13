@@ -1,0 +1,47 @@
+* {
+  font-family: "Times New Roman", serif;
+}
+
+/* for navvvvv*/
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 4px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in;
+  font-size: 20px;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+
+  transform-origin: bottom right;
+  transition: transform 0.49s ease-out;
+}
+/* 
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+} */
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 767px) {
+  .esm {
+    font-size: 14px;
+  }
+}
