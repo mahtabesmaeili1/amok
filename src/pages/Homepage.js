@@ -1,9 +1,11 @@
 import "../App.css";
+import MusicPlayer from "../components/MusicPlayer";
 
 export const Homepage = () => {
   return (
-    <div>
-      <p className="title"> AMOK</p>
+    <div className="homepage">
+      <h1 className="title">AMØK</h1>
+      <MusicPlayer />
     </div>
   );
 };
